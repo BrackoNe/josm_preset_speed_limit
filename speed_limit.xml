@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" author="BrackoNe" shortdescription="Speed Limits (RS)" description="Speed Limits traffic signs." sr-latn.description="Saobraćajni znakovi koji se odnose na ograničenja brzine." version="2.2019-11-16" baselanguage="en">
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" author="BrackoNe" shortdescription="Speed Limits (RS)" description="Speed Limits traffic signs." sr-latn.description="Saobraćajni znakovi koji se odnose na ograničenja brzine." version="4.2019-12-23" baselanguage="en">
 
 <!-- Regular Speed Limits -->
 	<group name="Maximum Speed Limit" sr-latn.name="Ograničenje brzine" icon="josm_preset_speed_limit-master/RS/RS_II-30[40].png">
@@ -221,7 +221,7 @@
 		</group>
 <!-- End of Speed Limits -->
 	<group name="End of Speed Limit" sr-latn.name="Prestanak ograničenja brzine" icon="josm_preset_speed_limit-master/RS/RS_III-14[40].png">
-		<item name="End of all prohibitions" sr-latn.name="Prestanak svih zabrana" icon="josm_preset_speed_limit-master/RS/RS_III-17.png" type="node,way">
+		<item name="End of All Prohibitions" sr-latn.name="Prestanak svih zabrana" icon="josm_preset_speed_limit-master/RS/RS_III-17.png" type="node,way">
 			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-17" />
 			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-17" />
 			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latn.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-17" match="keyvalue!" />
