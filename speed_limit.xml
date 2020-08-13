@@ -1,525 +1,525 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" author="BrackoNe" shortdescription="Speed Limits (RS)" description="Speed Limits traffic signs." sr-latn.description="Saobraćajni znakovi koji se odnose na ograničenja brzine." version="4.2019-12-23" baselanguage="en">
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" author="BrackoNe" shortdescription="Speed Limits (RS)" description="Speed Limits traffic signs." sr-latin.description="Saobraćajni znakovi koji se odnose na ograničenja brzine." version="5.2020-08-13" baselanguage="en">
 
 <!-- Regular Speed Limits -->
-	<group name="Maximum Speed Limit" sr-latn.name="Ograničenje brzine" icon="josm_preset_speed_limit-master/RS/RS_II-30[40].png">
-		<item name="Speed Limit 10 kmph" sr-latn.name="Ograničenje brzine od 10 km/č" icon="josm_preset_speed_limit-master/RS/RS_II-30[10].png" type="node,way">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:II-30[10]" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:II-30[10]" />
-			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latn.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[10]" match="keyvalue!" />
-			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[10]" match="keyvalue!" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+	<group name="Maximum Speed Limit" sr-latin.name="Ograničenje brzine" icon="josm_preset_speed_limit-master/RS/RS_II-30[40].png">
+		<item name="Speed Limit 10 kmph" sr-latin.name="Ograničenje brzine od 10 km/č" icon="josm_preset_speed_limit-master/RS/RS_II-30[10].png" type="node,way">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:II-30[10]" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:II-30[10]" />
+			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latin.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[10]" match="keyvalue!" />
+			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[10]" match="keyvalue!" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			<key key="maxspeed" value="10"/>
 			</item>
 
-		<item name="Speed Limit 20 kmph" sr-latn.name="Ograničenje brzine od 20 km/č"  icon="josm_preset_speed_limit-master/RS/RS_II-30[20].png" type="node,way">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:II-30[20]" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:II-30[20]" />
-			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latn.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[20]" match="keyvalue!" />
-			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[20]" match="keyvalue!" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="Speed Limit 20 kmph" sr-latin.name="Ograničenje brzine od 20 km/č"  icon="josm_preset_speed_limit-master/RS/RS_II-30[20].png" type="node,way">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:II-30[20]" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:II-30[20]" />
+			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latin.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[20]" match="keyvalue!" />
+			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[20]" match="keyvalue!" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			<key key="maxspeed" value="20"/>
 			</item>
 
-		<item name="Speed Limit 30 kmph" sr-latn.name="Ograničenje brzine od 30 km/č" icon="josm_preset_speed_limit-master/RS/RS_II-30[30].png" type="node,way">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:II-30[30]" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:II-30[30]" />
-			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latn.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[30]" match="keyvalue!" />
-			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[30]" match="keyvalue!" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="Speed Limit 30 kmph" sr-latin.name="Ograničenje brzine od 30 km/č" icon="josm_preset_speed_limit-master/RS/RS_II-30[30].png" type="node,way">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:II-30[30]" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:II-30[30]" />
+			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latin.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[30]" match="keyvalue!" />
+			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[30]" match="keyvalue!" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			<key key="maxspeed" value="30"/>
 			</item>
 
-		<item name="Speed Limit 40 kmph" sr-latn.name="Ograničenje brzine od 40 km/č" icon="josm_preset_speed_limit-master/RS/RS_II-30[40].png" type="node,way">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:II-30[40]" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:II-30[40]" />
-			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latn.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[40]" match="keyvalue!" />
-			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[40]" match="keyvalue!" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="Speed Limit 40 kmph" sr-latin.name="Ograničenje brzine od 40 km/č" icon="josm_preset_speed_limit-master/RS/RS_II-30[40].png" type="node,way">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:II-30[40]" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:II-30[40]" />
+			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latin.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[40]" match="keyvalue!" />
+			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[40]" match="keyvalue!" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			<key key="maxspeed" value="40"/>
 			</item>
 
-		<item name="Speed Limit 50 kmph" sr-latn.name="Ograničenje brzine od 50 km/č" icon="josm_preset_speed_limit-master/RS/RS_II-30[50].png" type="node,way">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:II-30[50]" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:II-30[50]" />
-			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latn.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[50]" match="keyvalue!" />
-			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[50]" match="keyvalue!" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="Speed Limit 50 kmph" sr-latin.name="Ograničenje brzine od 50 km/č" icon="josm_preset_speed_limit-master/RS/RS_II-30[50].png" type="node,way">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:II-30[50]" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:II-30[50]" />
+			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latin.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[50]" match="keyvalue!" />
+			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[50]" match="keyvalue!" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			<key key="maxspeed" value="50"/>
 			</item>
 
-		<item name="Speed Limit 60 kmph" sr-latn.name="Ograničenje brzine od 60 km/č" icon="josm_preset_speed_limit-master/RS/RS_II-30[60].png" type="node,way">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:II-30[60]" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:II-30[60]" />
-			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latn.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[60]" match="keyvalue!" />
-			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[60]" match="keyvalue!" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="Speed Limit 60 kmph" sr-latin.name="Ograničenje brzine od 60 km/č" icon="josm_preset_speed_limit-master/RS/RS_II-30[60].png" type="node,way">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:II-30[60]" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:II-30[60]" />
+			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latin.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[60]" match="keyvalue!" />
+			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[60]" match="keyvalue!" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			<key key="maxspeed" value="60"/>
 			</item>
 
-		<item name="Speed Limit 70 kmph" sr-latn.name="Ograničenje brzine od 70 km/č" icon="josm_preset_speed_limit-master/RS/RS_II-30[70].png" type="node,way">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:II-30[70]" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:II-30[70]" />
-			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latn.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[70]" match="keyvalue!" />
-			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[70]" match="keyvalue!" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="Speed Limit 70 kmph" sr-latin.name="Ograničenje brzine od 70 km/č" icon="josm_preset_speed_limit-master/RS/RS_II-30[70].png" type="node,way">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:II-30[70]" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:II-30[70]" />
+			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latin.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[70]" match="keyvalue!" />
+			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[70]" match="keyvalue!" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			<key key="maxspeed" value="70"/>
 			</item>
 
-		<item name="Speed Limit 80 kmph" sr-latn.name="Ograničenje brzine od 80 km/č" icon="josm_preset_speed_limit-master/RS/RS_II-30[80].png" type="node,way">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:II-30[80]" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:II-30[80]" />
-			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latn.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[80]" match="keyvalue!" />
-			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[80]" match="keyvalue!" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="Speed Limit 80 kmph" sr-latin.name="Ograničenje brzine od 80 km/č" icon="josm_preset_speed_limit-master/RS/RS_II-30[80].png" type="node,way">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:II-30[80]" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:II-30[80]" />
+			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latin.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[80]" match="keyvalue!" />
+			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[80]" match="keyvalue!" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			<key key="maxspeed" value="80"/>
 			</item>
 
-		<item name="Speed Limit 90 kmph" sr-latn.name="Ograničenje brzine od 90 km/č" icon="josm_preset_speed_limit-master/RS/RS_II-30[90].png" type="node,way">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:II-30[90]" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:II-30[90]" />
-			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latn.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[90]" match="keyvalue!" />
-			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[90]" match="keyvalue!" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="Speed Limit 90 kmph" sr-latin.name="Ograničenje brzine od 90 km/č" icon="josm_preset_speed_limit-master/RS/RS_II-30[90].png" type="node,way">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:II-30[90]" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:II-30[90]" />
+			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latin.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[90]" match="keyvalue!" />
+			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[90]" match="keyvalue!" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			<key key="maxspeed" value="90"/>
 			</item>
 
-		<item name="Speed Limit 100 kmph" sr-latn.name="Ograničenje brzine od 100 km/č" icon="josm_preset_speed_limit-master/RS/RS_II-30[100].png" type="node,way">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:II-30[100]" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:II-30[100]" />
-			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latn.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[100]" match="keyvalue!" />
-			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[100]" match="keyvalue!" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="Speed Limit 100 kmph" sr-latin.name="Ograničenje brzine od 100 km/č" icon="josm_preset_speed_limit-master/RS/RS_II-30[100].png" type="node,way">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:II-30[100]" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:II-30[100]" />
+			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latin.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[100]" match="keyvalue!" />
+			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[100]" match="keyvalue!" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			<key key="maxspeed" value="100"/>
 			</item>
 
-		<item name="Speed Limit 110 kmph" sr-latn.name="Ograničenje brzine od 110 km/č" icon="josm_preset_speed_limit-master/RS/RS_II-30[110].png" type="node,way">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:II-30[110]" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:II-30[110]" />
-			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latn.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[110]" match="keyvalue!" />
-			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[110]" match="keyvalue!" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="Speed Limit 110 kmph" sr-latin.name="Ograničenje brzine od 110 km/č" icon="josm_preset_speed_limit-master/RS/RS_II-30[110].png" type="node,way">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:II-30[110]" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:II-30[110]" />
+			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latin.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[110]" match="keyvalue!" />
+			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[110]" match="keyvalue!" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			<key key="maxspeed" value="110"/>
 			</item>
 
-		<item name="Speed Limit 120 kmph" sr-latn.name="Ograničenje brzine od 120 km/č" icon="josm_preset_speed_limit-master/RS/RS_II-30[120].png" type="node,way">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:II-30[120]" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:II-30[120]" />
-			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latn.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[120]" match="keyvalue!" />
-			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[120]" match="keyvalue!" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="Speed Limit 120 kmph" sr-latin.name="Ograničenje brzine od 120 km/č" icon="josm_preset_speed_limit-master/RS/RS_II-30[120].png" type="node,way">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:II-30[120]" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:II-30[120]" />
+			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latin.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[120]" match="keyvalue!" />
+			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[120]" match="keyvalue!" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			<key key="maxspeed" value="120"/>
 			</item>
 
-		<item name="Speed Limit 130 kmph" sr-latn.name="Ograničenje brzine od 130 km/č" icon="josm_preset_speed_limit-master/RS/RS_II-30[130].png" type="node,way">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:II-30[130]" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:II-30[130]" />
-			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latn.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[130]" match="keyvalue!" />
-			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[130]" match="keyvalue!" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="Speed Limit 130 kmph" sr-latin.name="Ograničenje brzine od 130 km/č" icon="josm_preset_speed_limit-master/RS/RS_II-30[130].png" type="node,way">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:II-30[130]" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:II-30[130]" />
+			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latin.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[130]" match="keyvalue!" />
+			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-30[130]" match="keyvalue!" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			<key key="maxspeed" value="130"/>
 			</item>
 		</group>
 <!-- Zones Group (Urban zone, School zone, Living street zone) -->
-	<group name="Speed Zones" sr-latn.name="Ograničenja brzine unutar zona" icon="josm_preset_speed_limit-master/RS/RS_III-27_old.png">
-		<item name="Settlement" sr-latn.name="Naselje" icon="josm_preset_speed_limit-master/RS/RS_III-24.png" type="node">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-24" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-24" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+	<group name="Speed Zones" sr-latin.name="Ograničenja brzine unutar zona" icon="josm_preset_speed_limit-master/RS/RS_III-27_old.png">
+		<item name="Settlement" sr-latin.name="Naselje" icon="josm_preset_speed_limit-master/RS/RS_III-24.png" type="node">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-24" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-24" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			</item>
 
-		<item name="End of Settlement" sr-latn.name="Završetak naselja" icon="josm_preset_speed_limit-master/RS/RS_III-24.1.png" type="node">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-24.1" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-24.1" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="End of Settlement" sr-latin.name="Završetak naselja" icon="josm_preset_speed_limit-master/RS/RS_III-24.1.png" type="node">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-24.1" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-24.1" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			</item>
 
-		<item name="Zone 30 (old)" sr-latn.name="Zona 30 (stari)" icon="josm_preset_speed_limit-master/RS/RS_III-27_old.png" type="node">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-27_old" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-27_old" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="Zone 30 (old)" sr-latin.name="Zona 30 (stari)" icon="josm_preset_speed_limit-master/RS/RS_III-27_old.png" type="node">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-27_old" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-27_old" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			</item>
 
-		<item name="End of Zone 30 (old)" sr-latn.name="Završetak zone 30 (stari)" icon="josm_preset_speed_limit-master/RS/RS_III-27.1_old.png" type="node">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-27.1_old" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-27.1_old" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="End of Zone 30 (old)" sr-latin.name="Završetak zone 30 (stari)" icon="josm_preset_speed_limit-master/RS/RS_III-27.1_old.png" type="node">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-27.1_old" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-27.1_old" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			</item>
 
-		<item name="Zone 30" sr-latn.name="Zona 30" icon="josm_preset_speed_limit-master/RS/RS_III-27.png" type="node">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-27" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-27" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="Zone 30" sr-latin.name="Zona 30" icon="josm_preset_speed_limit-master/RS/RS_III-27.png" type="node">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-27" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-27" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			</item>
 
-		<item name="End of Zone 30" sr-latn.name="Završetak zone 30" icon="josm_preset_speed_limit-master/RS/RS_III-27.1.png" type="node">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-27.1" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-27.1" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="End of Zone 30" sr-latin.name="Završetak zone 30" icon="josm_preset_speed_limit-master/RS/RS_III-27.1.png" type="node">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-27.1" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-27.1" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			</item>
 
-		<item name="School Zone" sr-latn.name="Zona škole" icon="josm_preset_speed_limit-master/RS/RS_III-28.png" type="node">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-28" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-28" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,280" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,280" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="School Zone" sr-latin.name="Zona škole" icon="josm_preset_speed_limit-master/RS/RS_III-28.png" type="node">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-28" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-28" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,280" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,280" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			</item>
 
-		<item name="End of School Zone" sr-latn.name="Završetak zone škole" icon="josm_preset_speed_limit-master/RS/RS_III-28.1.png" type="node">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-28.1" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-28.1" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,280" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,280" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="End of School Zone" sr-latin.name="Završetak zone škole" icon="josm_preset_speed_limit-master/RS/RS_III-28.1.png" type="node">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-28.1" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-28.1" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,280" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,280" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			</item>
 
-		<item name="School Zone (old)" sr-latn.name="Zona škole (stari)" icon="josm_preset_speed_limit-master/RS/RS_III-28_old.png" type="node">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-28_old" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-28_old" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,280" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,280" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="School Zone (old)" sr-latin.name="Zona škole (stari)" icon="josm_preset_speed_limit-master/RS/RS_III-28_old.png" type="node">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-28_old" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-28_old" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,280" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,280" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			</item>
 
-		<item name="End of School Zone (old)" sr-latn.name="Završetak zone škole (stari)" icon="josm_preset_speed_limit-master/RS/RS_III-28.1_old.png" type="node">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-28.1_old" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-28.1_old" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,280" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,280" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="End of School Zone (old)" sr-latin.name="Završetak zone škole (stari)" icon="josm_preset_speed_limit-master/RS/RS_III-28.1_old.png" type="node">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-28.1_old" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-28.1_old" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,280" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,280" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			</item>
 
-		<item name="Zone of Slow Traffic" sr-latn.name="Zona usporenog saobraćaja" icon="josm_preset_speed_limit-master/RS/RS_III-29.png" type="node">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-29" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-29" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,290" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,290" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="Zone of Slow Traffic" sr-latin.name="Zona usporenog saobraćaja" icon="josm_preset_speed_limit-master/RS/RS_III-29.png" type="node">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-29" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-29" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,290" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,290" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			</item>
 
-		<item name="End of Zone of Slow Traffic" sr-latn.name="Završetak zone usporenog saobraćaja" icon="josm_preset_speed_limit-master/RS/RS_III-29.1.png" type="node">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-29.1" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-29.1" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,290" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,290" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="End of Zone of Slow Traffic" sr-latin.name="Završetak zone usporenog saobraćaja" icon="josm_preset_speed_limit-master/RS/RS_III-29.1.png" type="node">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-29.1" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-29.1" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,290" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,290" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			</item>
 		</group>
 <!-- End of Speed Limits -->
-	<group name="End of Speed Limit" sr-latn.name="Prestanak ograničenja brzine" icon="josm_preset_speed_limit-master/RS/RS_III-14[40].png">
-		<item name="End of All Prohibitions" sr-latn.name="Prestanak svih zabrana" icon="josm_preset_speed_limit-master/RS/RS_III-17.png" type="node,way">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-17" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-17" />
-			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latn.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-17" match="keyvalue!" />
-			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-17" match="keyvalue!" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+	<group name="End of Speed Limit" sr-latin.name="Prestanak ograničenja brzine" icon="josm_preset_speed_limit-master/RS/RS_III-14[40].png">
+		<item name="End of All Prohibitions" sr-latin.name="Prestanak svih zabrana" icon="josm_preset_speed_limit-master/RS/RS_III-17.png" type="node,way">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-17" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-17" />
+			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latin.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-17" match="keyvalue!" />
+			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-17" match="keyvalue!" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			</item>
 		
-		<item name="End of Speed Limit 10 kmph" sr-latn.name="Prestanak ograničenja brzine od 10 km/č" icon="josm_preset_speed_limit-master/RS/RS_III-14[10].png" type="node,way">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-14[10]" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-14[10]" />
-			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latn.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-14[10]" match="keyvalue!" />
-			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-14[10]" match="keyvalue!" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="End of Speed Limit 10 kmph" sr-latin.name="Prestanak ograničenja brzine od 10 km/č" icon="josm_preset_speed_limit-master/RS/RS_III-14[10].png" type="node,way">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-14[10]" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-14[10]" />
+			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latin.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-14[10]" match="keyvalue!" />
+			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-14[10]" match="keyvalue!" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			</item>
 
-		<item name="End of Speed Limit 20 kmph" sr-latn.name="Prestanak ograničenja brzine od 20 km/č"  icon="josm_preset_speed_limit-master/RS/RS_III-14[20].png" type="node,way">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-14[20]" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-14[20]" />
-			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latn.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-14[20]" match="keyvalue!" />
-			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-14[20]" match="keyvalue!" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="End of Speed Limit 20 kmph" sr-latin.name="Prestanak ograničenja brzine od 20 km/č"  icon="josm_preset_speed_limit-master/RS/RS_III-14[20].png" type="node,way">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-14[20]" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-14[20]" />
+			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latin.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-14[20]" match="keyvalue!" />
+			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-14[20]" match="keyvalue!" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			</item>
 
-		<item name="End of Speed Limit 30 kmph" sr-latn.name="Prestanak ograničenja brzine od 30 km/č" icon="josm_preset_speed_limit-master/RS/RS_III-14[30].png" type="node,way">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-14[30]" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-14[30]" />
-			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latn.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-14[30]" match="keyvalue!" />
-			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-14[30]" match="keyvalue!" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="End of Speed Limit 30 kmph" sr-latin.name="Prestanak ograničenja brzine od 30 km/č" icon="josm_preset_speed_limit-master/RS/RS_III-14[30].png" type="node,way">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-14[30]" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-14[30]" />
+			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latin.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-14[30]" match="keyvalue!" />
+			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-14[30]" match="keyvalue!" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			</item>
 
-		<item name="End of Speed Limit 40 kmph" sr-latn.name="Prestanak ograničenja brzine od 40 km/č" icon="josm_preset_speed_limit-master/RS/RS_III-14[40].png" type="node,way">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-14[40]" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-14[40]" />
-			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latn.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-14[40]" match="keyvalue!" />
-			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-14[40]" match="keyvalue!" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="End of Speed Limit 40 kmph" sr-latin.name="Prestanak ograničenja brzine od 40 km/č" icon="josm_preset_speed_limit-master/RS/RS_III-14[40].png" type="node,way">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-14[40]" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-14[40]" />
+			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latin.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-14[40]" match="keyvalue!" />
+			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-14[40]" match="keyvalue!" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			</item>
 
-		<item name="End of Speed Limit 50 kmph" sr-latn.name="Prestanak ograničenja brzine od 50 km/č" icon="josm_preset_speed_limit-master/RS/RS_III-14[50].png" type="node,way">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-14[50]" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-14[50]" />
-			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latn.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-14[50]" match="keyvalue!" />
-			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-14[50]" match="keyvalue!" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="End of Speed Limit 50 kmph" sr-latin.name="Prestanak ograničenja brzine od 50 km/č" icon="josm_preset_speed_limit-master/RS/RS_III-14[50].png" type="node,way">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-14[50]" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-14[50]" />
+			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latin.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-14[50]" match="keyvalue!" />
+			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-14[50]" match="keyvalue!" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			</item>
 
-		<item name="End of Speed Limit 60 kmph" sr-latn.name="Prestanak ograničenja brzine od 60 km/č" icon="josm_preset_speed_limit-master/RS/RS_III-14[60].png" type="node,way">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-14[60]" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-14[60]" />
-			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latn.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-14[60]" match="keyvalue!" />
-			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-14[60]" match="keyvalue!" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="End of Speed Limit 60 kmph" sr-latin.name="Prestanak ograničenja brzine od 60 km/č" icon="josm_preset_speed_limit-master/RS/RS_III-14[60].png" type="node,way">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-14[60]" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-14[60]" />
+			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latin.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-14[60]" match="keyvalue!" />
+			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-14[60]" match="keyvalue!" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			</item>
 
-		<item name="End of Speed Limit 70 kmph" sr-latn.name="Prestanak ograničenja brzine od 70 km/č" icon="josm_preset_speed_limit-master/RS/RS_III-14[70].png" type="node,way">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-14[70]" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-14[70]" />
-			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latn.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-14[70]" match="keyvalue!" />
-			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-14[70]" match="keyvalue!" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="End of Speed Limit 70 kmph" sr-latin.name="Prestanak ograničenja brzine od 70 km/č" icon="josm_preset_speed_limit-master/RS/RS_III-14[70].png" type="node,way">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-14[70]" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-14[70]" />
+			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latin.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-14[70]" match="keyvalue!" />
+			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-14[70]" match="keyvalue!" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			</item>
 
-		<item name="End of Speed Limit 80 kmph" sr-latn.name="Prestanak ograničenja brzine od 80 km/č" icon="josm_preset_speed_limit-master/RS/RS_III-14[80].png" type="node,way">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-14[80]" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-14[80]" />
-			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latn.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-14[80]" match="keyvalue!" />
-			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-14[80]" match="keyvalue!" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="End of Speed Limit 80 kmph" sr-latin.name="Prestanak ograničenja brzine od 80 km/č" icon="josm_preset_speed_limit-master/RS/RS_III-14[80].png" type="node,way">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-14[80]" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-14[80]" />
+			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latin.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-14[80]" match="keyvalue!" />
+			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-14[80]" match="keyvalue!" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			</item>
 
-		<item name="End of Speed Limit 90 kmph" sr-latn.name="Prestanak ograničenja brzine od 90 km/č" icon="josm_preset_speed_limit-master/RS/RS_III-14[90].png" type="node,way">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-14[90]" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-14[90]" />
-			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latn.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-14[90]" match="keyvalue!" />
-			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-14[90]" match="keyvalue!" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="End of Speed Limit 90 kmph" sr-latin.name="Prestanak ograničenja brzine od 90 km/č" icon="josm_preset_speed_limit-master/RS/RS_III-14[90].png" type="node,way">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-14[90]" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-14[90]" />
+			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latin.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-14[90]" match="keyvalue!" />
+			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-14[90]" match="keyvalue!" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			</item>
 
-		<item name="End of Speed Limit 100 kmph" sr-latn.name="Prestanak ograničenja brzine od 100 km/č" icon="josm_preset_speed_limit-master/RS/RS_III-14[100].png" type="node,way">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-14[100]" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-14[100]" />
-			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latn.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-14[100]" match="keyvalue!" />
-			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-14[100]" match="keyvalue!" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="End of Speed Limit 100 kmph" sr-latin.name="Prestanak ograničenja brzine od 100 km/č" icon="josm_preset_speed_limit-master/RS/RS_III-14[100].png" type="node,way">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-14[100]" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-14[100]" />
+			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latin.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-14[100]" match="keyvalue!" />
+			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-14[100]" match="keyvalue!" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			</item>
 
-		<item name="End of Speed Limit 110 kmph" sr-latn.name="Prestanak ograničenja brzine od 110 km/č" icon="josm_preset_speed_limit-master/RS/RS_III-14[110].png" type="node,way">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-14[110]" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-14[110]" />
-			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latn.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-14[110]" match="keyvalue!" />
-			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-14[110]" match="keyvalue!" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="End of Speed Limit 110 kmph" sr-latin.name="Prestanak ograničenja brzine od 110 km/č" icon="josm_preset_speed_limit-master/RS/RS_III-14[110].png" type="node,way">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-14[110]" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-14[110]" />
+			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latin.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-14[110]" match="keyvalue!" />
+			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-14[110]" match="keyvalue!" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			</item>
 
-		<item name="End of Speed Limit 120 kmph" sr-latn.name="Prestanak ograničenja brzine od 120 km/č" icon="josm_preset_speed_limit-master/RS/RS_III-14[120].png" type="node,way">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-14[120]" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-14[120]" />
-			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latn.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-14[120]" match="keyvalue!" />
-			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-14[120]" match="keyvalue!" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="End of Speed Limit 120 kmph" sr-latin.name="Prestanak ograničenja brzine od 120 km/č" icon="josm_preset_speed_limit-master/RS/RS_III-14[120].png" type="node,way">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-14[120]" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-14[120]" />
+			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latin.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-14[120]" match="keyvalue!" />
+			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-14[120]" match="keyvalue!" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			</item>
 		</group>
 <!-- Minimum Speed Limit -->		
-	<group name="Minimum Speed Limit" sr-latn.name="Najmanja dozvoljena brzina" icon="josm_preset_speed_limit-master/RS/RS_II-38[40].png">
-		<item name="Minimum Speed Limit 10 kmph" sr-latn.name="Najmanja dozvoljena brzina od 10 km/č" icon="josm_preset_speed_limit-master/RS/RS_II-38[10].png" type="node,way">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:II-38[10]" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:II-38[10]" />
-			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latn.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-38[10]" match="keyvalue!" />
-			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-38[10]" match="keyvalue!" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+	<group name="Minimum Speed Limit" sr-latin.name="Najmanja dozvoljena brzina" icon="josm_preset_speed_limit-master/RS/RS_II-38[40].png">
+		<item name="Minimum Speed Limit 10 kmph" sr-latin.name="Najmanja dozvoljena brzina od 10 km/č" icon="josm_preset_speed_limit-master/RS/RS_II-38[10].png" type="node,way">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:II-38[10]" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:II-38[10]" />
+			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latin.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-38[10]" match="keyvalue!" />
+			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-38[10]" match="keyvalue!" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			</item>
 
-		<item name="Minimum Speed Limit 20 kmph" sr-latn.name="Najmanja dozvoljena brzina od 20 km/č"  icon="josm_preset_speed_limit-master/RS/RS_II-38[20].png" type="node,way">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:II-38[20]" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:II-38[20]" />
-			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latn.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-38[20]" match="keyvalue!" />
-			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-38[20]" match="keyvalue!" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="Minimum Speed Limit 20 kmph" sr-latin.name="Najmanja dozvoljena brzina od 20 km/č"  icon="josm_preset_speed_limit-master/RS/RS_II-38[20].png" type="node,way">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:II-38[20]" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:II-38[20]" />
+			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latin.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-38[20]" match="keyvalue!" />
+			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-38[20]" match="keyvalue!" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			</item>
 
-		<item name="Minimum Speed Limit 30 kmph" sr-latn.name="Najmanja dozvoljena brzina od 30 km/č" icon="josm_preset_speed_limit-master/RS/RS_II-38[30].png" type="node,way">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:II-38[30]" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:II-38[30]" />
-			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latn.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-38[30]" match="keyvalue!" />
-			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-38[30]" match="keyvalue!" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="Minimum Speed Limit 30 kmph" sr-latin.name="Najmanja dozvoljena brzina od 30 km/č" icon="josm_preset_speed_limit-master/RS/RS_II-38[30].png" type="node,way">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:II-38[30]" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:II-38[30]" />
+			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latin.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-38[30]" match="keyvalue!" />
+			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-38[30]" match="keyvalue!" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			</item>
 
-		<item name="Minimum Speed Limit 40 kmph" sr-latn.name="Najmanja dozvoljena brzina od 40 km/č" icon="josm_preset_speed_limit-master/RS/RS_II-38[40].png" type="node,way">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:II-38[40]" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:II-38[40]" />
-			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latn.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-38[40]" match="keyvalue!" />
-			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-38[40]" match="keyvalue!" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="Minimum Speed Limit 40 kmph" sr-latin.name="Najmanja dozvoljena brzina od 40 km/č" icon="josm_preset_speed_limit-master/RS/RS_II-38[40].png" type="node,way">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:II-38[40]" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:II-38[40]" />
+			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latin.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-38[40]" match="keyvalue!" />
+			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-38[40]" match="keyvalue!" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			</item>
 
-		<item name="Minimum Speed Limit 50 kmph" sr-latn.name="Najmanja dozvoljena brzina od 50 km/č" icon="josm_preset_speed_limit-master/RS/RS_II-38[50].png" type="node,way">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:II-38[50]" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:II-38[50]" />
-			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latn.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-38[50]" match="keyvalue!" />
-			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-38[50]" match="keyvalue!" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="Minimum Speed Limit 50 kmph" sr-latin.name="Najmanja dozvoljena brzina od 50 km/č" icon="josm_preset_speed_limit-master/RS/RS_II-38[50].png" type="node,way">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:II-38[50]" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:II-38[50]" />
+			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latin.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-38[50]" match="keyvalue!" />
+			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-38[50]" match="keyvalue!" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			</item>
 
-		<item name="Minimum Speed Limit 60 kmph" sr-latn.name="Najmanja dozvoljena brzina od 60 km/č" icon="josm_preset_speed_limit-master/RS/RS_II-38[60].png" type="node,way">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:II-38[60]" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:II-38[60]" />
-			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latn.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-38[60]" match="keyvalue!" />
-			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-38[60]" match="keyvalue!" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="Minimum Speed Limit 60 kmph" sr-latin.name="Najmanja dozvoljena brzina od 60 km/č" icon="josm_preset_speed_limit-master/RS/RS_II-38[60].png" type="node,way">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:II-38[60]" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:II-38[60]" />
+			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latin.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-38[60]" match="keyvalue!" />
+			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-38[60]" match="keyvalue!" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			</item>
 
-		<item name="Minimum Speed Limit 70 kmph" sr-latn.name="Najmanja dozvoljena brzina od 70 km/č" icon="josm_preset_speed_limit-master/RS/RS_II-38[70].png" type="node,way">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:II-38[70]" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:II-38[70]" />
-			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latn.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-38[70]" match="keyvalue!" />
-			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-38[70]" match="keyvalue!" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="Minimum Speed Limit 70 kmph" sr-latin.name="Najmanja dozvoljena brzina od 70 km/č" icon="josm_preset_speed_limit-master/RS/RS_II-38[70].png" type="node,way">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:II-38[70]" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:II-38[70]" />
+			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latin.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-38[70]" match="keyvalue!" />
+			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-38[70]" match="keyvalue!" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			</item>
 
-		<item name="Minimum Speed Limit 80 kmph" sr-latn.name="Najmanja dozvoljena brzina od 80 km/č" icon="josm_preset_speed_limit-master/RS/RS_II-38[80].png" type="node,way">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:II-38[80]" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:II-38[80]" />
-			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latn.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-38[80]" match="keyvalue!" />
-			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-38[80]" match="keyvalue!" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="Minimum Speed Limit 80 kmph" sr-latin.name="Najmanja dozvoljena brzina od 80 km/č" icon="josm_preset_speed_limit-master/RS/RS_II-38[80].png" type="node,way">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:II-38[80]" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:II-38[80]" />
+			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latin.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-38[80]" match="keyvalue!" />
+			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-38[80]" match="keyvalue!" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			</item>
 
-		<item name="Minimum Speed Limit 90 kmph" sr-latn.name="Najmanja dozvoljena brzina od 90 km/č" icon="josm_preset_speed_limit-master/RS/RS_II-38[90].png" type="node,way">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:II-38[90]" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:II-38[90]" />
-			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latn.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-38[90]" match="keyvalue!" />
-			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-38[90]" match="keyvalue!" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="Minimum Speed Limit 90 kmph" sr-latin.name="Najmanja dozvoljena brzina od 90 km/č" icon="josm_preset_speed_limit-master/RS/RS_II-38[90].png" type="node,way">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:II-38[90]" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:II-38[90]" />
+			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latin.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-38[90]" match="keyvalue!" />
+			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-38[90]" match="keyvalue!" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			</item>
 
-		<item name="Minimum Speed Limit 100 kmph" sr-latn.name="Najmanja dozvoljena brzina od 100 km/č" icon="josm_preset_speed_limit-master/RS/RS_II-38[100].png" type="node,way">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:II-38[100]" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:II-38[100]" />
-			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latn.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-38[100]" match="keyvalue!" />
-			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-38[100]" match="keyvalue!" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="Minimum Speed Limit 100 kmph" sr-latin.name="Najmanja dozvoljena brzina od 100 km/č" icon="josm_preset_speed_limit-master/RS/RS_II-38[100].png" type="node,way">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:II-38[100]" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:II-38[100]" />
+			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latin.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-38[100]" match="keyvalue!" />
+			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:II-38[100]" match="keyvalue!" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			</item>
 		</group>
 <!-- End of Minimum Speed Limit -->
-	<group name="End of Minimum Speed Limit" sr-latn.name="Prestanak najmanje dozvoljene brzine" icon="josm_preset_speed_limit-master/RS/RS_III-15[40].png">
-		<item name="End of Minimum Speed Limit 10 kmph" sr-latn.name="Prestanak najmanje dozvoljene brzine od 10 km/č" icon="josm_preset_speed_limit-master/RS/RS_III-15[10].png" type="node,way">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-15[10]" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-15[10]" />
-			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latn.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-15[10]" match="keyvalue!" />
-			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-15[10]" match="keyvalue!" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+	<group name="End of Minimum Speed Limit" sr-latin.name="Prestanak najmanje dozvoljene brzine" icon="josm_preset_speed_limit-master/RS/RS_III-15[40].png">
+		<item name="End of Minimum Speed Limit 10 kmph" sr-latin.name="Prestanak najmanje dozvoljene brzine od 10 km/č" icon="josm_preset_speed_limit-master/RS/RS_III-15[10].png" type="node,way">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-15[10]" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-15[10]" />
+			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latin.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-15[10]" match="keyvalue!" />
+			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-15[10]" match="keyvalue!" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			</item>
 
-		<item name="End of Minimum Speed Limit 20 kmph" sr-latn.name="Prestanak najmanje dozvoljene brzine od 20 km/č"  icon="josm_preset_speed_limit-master/RS/RS_III-15[20].png" type="node,way">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-15[20]" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-15[20]" />
-			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latn.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-15[20]" match="keyvalue!" />
-			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-15[20]" match="keyvalue!" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="End of Minimum Speed Limit 20 kmph" sr-latin.name="Prestanak najmanje dozvoljene brzine od 20 km/č"  icon="josm_preset_speed_limit-master/RS/RS_III-15[20].png" type="node,way">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-15[20]" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-15[20]" />
+			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latin.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-15[20]" match="keyvalue!" />
+			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-15[20]" match="keyvalue!" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			</item>
 
-		<item name="End of Minimum Speed Limit 30 kmph" sr-latn.name="Prestanak najmanje dozvoljene brzine od 30 km/č" icon="josm_preset_speed_limit-master/RS/RS_III-15[30].png" type="node,way">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-15[30]" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-15[30]" />
-			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latn.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-15[30]" match="keyvalue!" />
-			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-15[30]" match="keyvalue!" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="End of Minimum Speed Limit 30 kmph" sr-latin.name="Prestanak najmanje dozvoljene brzine od 30 km/č" icon="josm_preset_speed_limit-master/RS/RS_III-15[30].png" type="node,way">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-15[30]" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-15[30]" />
+			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latin.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-15[30]" match="keyvalue!" />
+			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-15[30]" match="keyvalue!" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			</item>
 
-		<item name="End of Minimum Speed Limit 40 kmph" sr-latn.name="Prestanak najmanje dozvoljene brzine od 40 km/č" icon="josm_preset_speed_limit-master/RS/RS_III-15[40].png" type="node,way">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-15[40]" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-15[40]" />
-			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latn.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-15[40]" match="keyvalue!" />
-			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-15[40]" match="keyvalue!" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="End of Minimum Speed Limit 40 kmph" sr-latin.name="Prestanak najmanje dozvoljene brzine od 40 km/č" icon="josm_preset_speed_limit-master/RS/RS_III-15[40].png" type="node,way">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-15[40]" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-15[40]" />
+			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latin.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-15[40]" match="keyvalue!" />
+			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-15[40]" match="keyvalue!" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			</item>
 
-		<item name="End of Minimum Speed Limit 50 kmph" sr-latn.name="Prestanak najmanje dozvoljene brzine od 50 km/č" icon="josm_preset_speed_limit-master/RS/RS_III-15[50].png" type="node,way">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-15[50]" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-15[50]" />
-			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latn.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-15[50]" match="keyvalue!" />
-			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-15[50]" match="keyvalue!" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="End of Minimum Speed Limit 50 kmph" sr-latin.name="Prestanak najmanje dozvoljene brzine od 50 km/č" icon="josm_preset_speed_limit-master/RS/RS_III-15[50].png" type="node,way">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-15[50]" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-15[50]" />
+			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latin.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-15[50]" match="keyvalue!" />
+			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-15[50]" match="keyvalue!" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			</item>
 
-		<item name="End of Minimum Speed Limit 60 kmph" sr-latn.name="Prestanak najmanje dozvoljene brzine od 60 km/č" icon="josm_preset_speed_limit-master/RS/RS_III-15[60].png" type="node,way">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-15[60]" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-15[60]" />
-			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latn.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-15[60]" match="keyvalue!" />
-			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-15[60]" match="keyvalue!" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="End of Minimum Speed Limit 60 kmph" sr-latin.name="Prestanak najmanje dozvoljene brzine od 60 km/č" icon="josm_preset_speed_limit-master/RS/RS_III-15[60].png" type="node,way">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-15[60]" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-15[60]" />
+			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latin.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-15[60]" match="keyvalue!" />
+			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-15[60]" match="keyvalue!" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			</item>
 
-		<item name="End of Minimum Speed Limit 70 kmph" sr-latn.name="Prestanak najmanje dozvoljene brzine od 70 km/č" icon="josm_preset_speed_limit-master/RS/RS_III-15[70].png" type="node,way">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-15[70]" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-15[70]" />
-			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latn.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-15[70]" match="keyvalue!" />
-			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-15[70]" match="keyvalue!" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="End of Minimum Speed Limit 70 kmph" sr-latin.name="Prestanak najmanje dozvoljene brzine od 70 km/č" icon="josm_preset_speed_limit-master/RS/RS_III-15[70].png" type="node,way">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-15[70]" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-15[70]" />
+			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latin.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-15[70]" match="keyvalue!" />
+			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-15[70]" match="keyvalue!" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			</item>
 
-		<item name="End of Minimum Speed Limit 80 kmph" sr-latn.name="Prestanak najmanje dozvoljene brzine od 80 km/č" icon="josm_preset_speed_limit-master/RS/RS_III-15[80].png" type="node,way">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-15[80]" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-15[80]" />
-			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latn.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-15[80]" match="keyvalue!" />
-			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-15[80]" match="keyvalue!" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="End of Minimum Speed Limit 80 kmph" sr-latin.name="Prestanak najmanje dozvoljene brzine od 80 km/č" icon="josm_preset_speed_limit-master/RS/RS_III-15[80].png" type="node,way">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-15[80]" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-15[80]" />
+			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latin.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-15[80]" match="keyvalue!" />
+			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-15[80]" match="keyvalue!" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			</item>
 
-		<item name="End of Minimum Speed Limit 90 kmph" sr-latn.name="Prestanak najmanje dozvoljene brzine od 90 km/č" icon="josm_preset_speed_limit-master/RS/RS_III-15[90].png" type="node,way">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-15[90]" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-15[90]" />
-			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latn.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-15[90]" match="keyvalue!" />
-			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-15[90]" match="keyvalue!" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="End of Minimum Speed Limit 90 kmph" sr-latin.name="Prestanak najmanje dozvoljene brzine od 90 km/č" icon="josm_preset_speed_limit-master/RS/RS_III-15[90].png" type="node,way">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-15[90]" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-15[90]" />
+			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latin.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-15[90]" match="keyvalue!" />
+			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-15[90]" match="keyvalue!" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			</item>
 
-		<item name="End of Minimum Speed Limit 100 kmph" sr-latn.name="Prestanak najmanje dozvoljene brzine od 100 km/č" icon="josm_preset_speed_limit-master/RS/RS_III-15[100].png" type="node,way">
-			<check key="traffic_sign:forward" text="Forward" sr-latn.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-15[100]" />
-			<check key="traffic_sign:backward" text="Backward" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-15[100]" />
-			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latn.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-15[100]" match="keyvalue!" />
-			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latn.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-15[100]" match="keyvalue!" />
-			<combo key="side" text="Side of the way" sr-latn.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
-			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latn.text="Kôd Mapillary fotografije" />
+		<item name="End of Minimum Speed Limit 100 kmph" sr-latin.name="Prestanak najmanje dozvoljene brzine od 100 km/č" icon="josm_preset_speed_limit-master/RS/RS_III-15[100].png" type="node,way">
+			<check key="traffic_sign:forward" text="Forward" sr-latin.text="U pravcu kretanja vektora" default="off" value_off="" value_on="RS:III-15[100]" />
+			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-15[100]" />
+			<check key="traffic_sign:2:forward" text="Forward, second position" sr-latin.text="U pravcu kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-15[100]" match="keyvalue!" />
+			<check key="traffic_sign:2:backward" text="Backward, second position" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora, na drugoj poziciji" default="off" value_off="" value_on="RS:III-15[100]" match="keyvalue!" />
+			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
+			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
 			</item>
 		</group>
 </presets>
