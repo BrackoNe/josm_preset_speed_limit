@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" author="BrackoNe" shortdescription="Speed Limits (RS)" description="Speed Limits traffic signs." sr-latin.description="Saobraćajni znakovi koji se odnose na ograničenja brzine." version="5.2020-08-13" baselanguage="en">
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" author="BrackoNe" shortdescription="Speed Limits (RS)" description="Speed Limits traffic signs." sr-latin.description="Saobraćajni znakovi koji se odnose na ograničenja brzine." version="7.2022-09-16" baselanguage="en">
 
 <!-- Regular Speed Limits -->
 	<group name="Maximum Speed Limit" sr-latin.name="Ograničenje brzine" icon="josm_preset_speed_limit-master/RS/RS_II-30[40].png">
@@ -154,7 +154,7 @@
 			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-27" />
 			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
 			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
-			<key key="traffic_sign:type" value="old">
+			<key key="traffic_sign:type" value="old"/>
 			</item>
 
 		<item name="End of Zone 30 (old)" sr-latin.name="Završetak zone 30 (stari)" icon="josm_preset_speed_limit-master/RS/RS_III-27.1_old.png" type="node">
@@ -162,7 +162,7 @@
 			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-27.1" />
 			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,270" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,270" default="right" />
 			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
-			<key key="traffic_sign:type" value="old">
+			<key key="traffic_sign:type" value="old"/>
 			</item>
 
 		<item name="Zone 30" sr-latin.name="Zona 30" icon="josm_preset_speed_limit-master/RS/RS_III-27.png" type="node">
@@ -198,7 +198,7 @@
 			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-28" />
 			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,280" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,280" default="right" />
 			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
-			<key key="traffic_sign:type" value="old">
+			<key key="traffic_sign:type" value="old"/>
 			</item>
 
 		<item name="End of School Zone (old)" sr-latin.name="Završetak zone škole (stari)" icon="josm_preset_speed_limit-master/RS/RS_III-28.1_old.png" type="node">
@@ -206,7 +206,7 @@
 			<check key="traffic_sign:backward" text="Backward" sr-latin.text="U suprotnom pravcu od pravca kretanja vektora" default="off" value_off="" value_on="RS:III-28.1" />
 			<combo key="side" text="Side of the way" sr-latin.text="Sa koje strane se nalazi znak" values="right,left,both,up,down,90,280" es.display_values="zdesna,sleva,s obe,od gore,od dole,90,280" default="right" />
 			<text key="source:traffic_sign:mapillary" text="Mapillary Image Key" sr-latin.text="Kôd Mapillary fotografije" />
-			<key key="traffic_sign:type" value="old">
+			<key key="traffic_sign:type" value="old"/>
 			</item>
 
 		<item name="Zone of Slow Traffic" sr-latin.name="Zona usporenog saobraćaja" icon="josm_preset_speed_limit-master/RS/RS_III-29.png" type="node">
